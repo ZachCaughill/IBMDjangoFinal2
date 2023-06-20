@@ -117,7 +117,7 @@ class Question(models.Model):
         else:
             return False
     # question grade/mark
-    grade = models.BooleanField(is_get_score)
+    question_grade = models.BooleanField(is_get_score)
 
 
 #  <HINT> Create a Choice Model with:
